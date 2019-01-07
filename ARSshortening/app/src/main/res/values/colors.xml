@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>//그다음색
+    <color name="colorPrimaryDark">#9f3930</color>
+    <color name="colorWhite">#ffffff</color>//그다음색
+    <color name="colorBlue">#4FACE9</color>//그다음색
+    <color name="colormap">#7b4face9</color>//그다음색
+    <color name="colorsky">#baebef</color>//그다음색
+    <color name="colors">#baebef</color>//그다음색
+    <color name="colorBlack">#000000</color>//그다음색
+    <color name="colorYellow">#bed6be09</color>//그다음색
+    <color name="colorBlank">#00000000</color>//그다음색
+
+
+
+    <color name="colorAccent">#4FACE9</color>//제일위 색
+
+</resources>

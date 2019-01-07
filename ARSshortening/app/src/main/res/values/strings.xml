@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ARS자동화 챗봇</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">설정</string>
+    <string name="prompt_email">   &#160;&#160;  이메일</string>
+    <string name="prompt_password">   &#160;&#160;비밀번호</string>
+    <string name="action_sign_in">시작하기</string>
+    <string name="action_sign_up">회원가입</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">이메일 주소가 올바르지 않습니다.</string>
+    <string name="error_invalid_password">비밀번호가 짧습니다.</string>
+    <string name="error_incorrect_password">비밀번호가 틀렸습니다.</string>
+    <string name="error_field_required">빈칸을 채워주세요.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="non_empty_query">Query should not be empty</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/mainback3"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.segyu.capstone.MainActivity"
+   >
+// tools:showIn="@layout/app_bar_main"위에 추가하면 상태바밑에한줄더생김
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:scrollbars="horizontal"
+
+
+        >
+
+        <Button
+            android:id="@+id/mainButton1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@drawable/back_main"
+
+            android:gravity="center"
+            android:text="챗봇을 이용한 ars"
+
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp" />
+
+
+        <Button
+            android:id="@+id/mainButton2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@drawable/back_main"
+            android:gravity="center"
+            android:text="가까운 은행 찾기"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/mainButton3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@drawable/back_main"
+            android:gravity="center"
+            android:text="잔액 조회"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/mainButton4"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@drawable/back_main"
+            android:gravity="center"
+            android:text="마일리지 조회"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+  </ScrollView>
+</android.support.constraint.ConstraintLayout>

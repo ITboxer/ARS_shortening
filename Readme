@@ -1,0 +1,27 @@
+이 프로젝트는 ChatBot을 활용해, 국민은행 ARS 서비스 연결 시간을 단축시키는 목적에서 시작됬습니다.
+
+ChatBot을 위해, DialogFlow를 사용한
+안드로이드 기반의 앱입니다.
+
+
+맡은 부분 
+ - ChatBot에서 인식한 서비스에 대응되는 Dial 처리하기
+ 
+ 
+관련 소스
+ - StackOverFlow를 참조하여 setData 함수를 사용했습니다.
+ 
+ private void call() {
+        try {
+            Intent intent = new Intent(Intent.ACTION_CALL);
+
+            //일단은 신용카드/체크카드 분실 서비스만
+            //이 작업 시, 다음차례 작업: 생년월일 입력 --> 카드번호 입력
+            intent.setData(Uri.parse("tel:" + "15889999,*,1,,,,*"));
+
+            startActivity(intent);
+        } catch (SecurityException e) {
+            e.printStackTrace();
+
+        }
+    }
